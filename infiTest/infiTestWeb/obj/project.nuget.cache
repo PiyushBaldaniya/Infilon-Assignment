@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wR0lEtXdGVMjep3EvER+CAfYP/StINRDKZhxp+Q11LOVbWXlW66xrH70c09GgNuoue4x5kCsPA7wz23h1n3IHg==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\infiTest\\infiTestWeb\\infiTestWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\webwerks\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
+    "C:\\Users\\webwerks\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

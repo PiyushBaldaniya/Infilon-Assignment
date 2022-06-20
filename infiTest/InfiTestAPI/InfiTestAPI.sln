@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiTestAPI", "InfiTestAPI\InfiTestAPI.csproj", "{AAA66DED-B04C-4555-B9D5-2DD8710D03C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infiTestWeb", "..\infiTestWeb\infiTestWeb.csproj", "{85A5572E-2965-450D-ABEE-3BD2CE29A427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA66DED-B04C-4555-B9D5-2DD8710D03C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA66DED-B04C-4555-B9D5-2DD8710D03C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA66DED-B04C-4555-B9D5-2DD8710D03C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA66DED-B04C-4555-B9D5-2DD8710D03C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A5572E-2965-450D-ABEE-3BD2CE29A427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A5572E-2965-450D-ABEE-3BD2CE29A427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A5572E-2965-450D-ABEE-3BD2CE29A427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A5572E-2965-450D-ABEE-3BD2CE29A427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {165F4D9A-96AC-48B7-9419-8F6522AC0AAA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿<table class="table table-hover table-bordered table-striped" id="EvenUserId">
+    <thead style="background-color: #f1f4f7;">
+        <tr>
+            <th>id</th>
+            <th>UserId</th>
+            <th>Title</th>
+            <th>Completed</th>
+            <th>Edited</th>
+        </tr>
+    </thead>
+</table>
+<script>
+    var userId;
+    $(document).ready(function () {
+
+        LoadTable();
+
+    });
+
+    function LoadTable() {
+        $.ajax({
+            type: "GET",
+            cache: false,
+            async: false,
+            contentType: "application/json; charset=utf-8",
+            url: '/User/GetTable',
+            data: { "tableId": 3 },
+            success: function (res) {
+                UserEvens = JSON.parse(res.data);
+                var t = "";
+                for (var i in UserEvens) {
+                    t += "<tr>";
+                    t += "<td style='vertical-align: middle;'>" + UserEvens[i].id + "</td>";
+                    t += "<td style='vertical-align: middle;'>" + UserEvens[i].userId + "</td>";
+                    t += "<td style='vertical-align: middle;zoom: 0.9;'>" + UserEvens[i].title + "</td>";
+                    t += "<td style='vertical-align: middle;'>" + UserEvens[i].completed + "</td>";
+                    t += "<td style='vertical-align: middle;'>" + UserEvens[i].edited + "</td>";
+                    t += "</tr>";
+                }
+                $('#EvenUserId').append(t);
+            }
+        });
+
+    }
+
+
+</script>
